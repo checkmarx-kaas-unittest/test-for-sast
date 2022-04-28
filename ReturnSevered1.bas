@@ -9,6 +9,7 @@ Option Explicit
 Public Function DailyPassword(Optional pdtDate As Date) As String
     Dim hardCodedPassword As String
     Dim hardCodedPasswordCopy As String	
+	Dim hardCodedPasswordCopy2 As String	
 	
 	hardCodedPassword = "NotSafe!"
 	hardCodedPasswordCopy = hardCodedPassword
@@ -25,7 +26,7 @@ Public Function DailyPassword(Optional pdtDate As Date) As String
     ' Execute
     Cmd.Execute(t)
 	'Cmd.Execute(hardCodedPasswordCopy)
-
+'Cmd.Execute(hardCodedPasswordCopy2)
 	Con.Execute(t)
 
 	'DailyPassword = Con.Open(hardCodedPassword)
