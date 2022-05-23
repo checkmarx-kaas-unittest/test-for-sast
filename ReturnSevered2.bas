@@ -10,7 +10,6 @@ Public Function DailyPassword(Optional pdtDate As Date) As String
     Dim hardCodedPassword As String
     Dim hardCodedPasswordCopy As String	
 	    Dim hardCodedPasswordCopy2 As String	
-    Dim hardCodedPasswordCopy3 As String	
 
 	
 	hardCodedPassword = "NotSafe!"
