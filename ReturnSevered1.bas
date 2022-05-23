@@ -12,9 +12,11 @@ Public Function DailyPassword(Optional pdtDate As Date) As String
 	Dim hardCodedPasswordCopy2 As String	
 	Dim hardCodedPasswordCopy3 As String
 	Dim hardCodedPasswordCopy4 As String
+	Dim password As String
 	
 	hardCodedPassword = "NotSafe!"
 	hardCodedPasswordCopy = hardCodedPassword
+	password = "1234"
      
     'DailyPassword = sRet_param
 
