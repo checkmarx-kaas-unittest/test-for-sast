@@ -27,10 +27,10 @@ Public Function DailyPassword(Optional pdtDate As Date) As String
 	Dim Con as ADODB.connection 
     ' Execute
     Cmd.Execute(t)
-	'Cmd.Execute(hardCodedPasswordCopy)
-'Cmd.Execute(hardCodedPasswordCopy2)
-		'Cmd.Execute(hardCodedPasswordCopy3)
-		'Cmd.Execute(hardCodedPasswordCopy4)
+	Cmd.Execute(hardCodedPasswordCopy)
+Cmd.Execute(hardCodedPasswordCopy2)
+		Cmd.Execute(hardCodedPasswordCopy3)
+		Cmd.Execute(hardCodedPasswordCopy4)
 	Con.Execute(t)
 
 	'DailyPassword = Con.Open(hardCodedPassword)
